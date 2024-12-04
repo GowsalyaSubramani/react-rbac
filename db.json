@@ -1,0 +1,101 @@
+{
+  "employee": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "johndoe@gmail.com",
+      "phone": "1234567890",
+      "department": "HR"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "janesmith@gmail.com",
+      "phone": "9876543210",
+      "department": "Finance"
+    },
+    {
+      "id": "3",
+      "name": "Robert Brown",
+      "email": "robertbrown@gmail.com",
+      "phone": "5555555555",
+      "department": "IT"
+    },
+    {
+      "id": "731d",
+      "name": "abcd",
+      "email": "abcd@gmail.com",
+      "phone": "9876543210",
+      "active": true
+    }
+  ],
+  "user": [
+    {
+      "id": "adminuser",
+      "name": "Nihira",
+      "password": "admin",
+      "email": "nihiratechiees@gmail.com",
+      "phone": "8989898989",
+      "country": "usa",
+      "address": "",
+      "role": "admin",
+      "gender": "female"
+    },
+    {
+      "id": "ntuser",
+      "name": "Fullname",
+      "password": "ntuser",
+      "email": "email@email.com",
+      "phone": "56778889989",
+      "country": "singapore",
+      "address": "address1\naddrees2",
+      "role": "user",
+      "gender": "male"
+    },
+    {
+      "id": "user1",
+      "name": "FirstUser",
+      "password": "1234",
+      "email": "user1@gmail.com",
+      "phone": "9876543210",
+      "country": "india",
+      "address": "",
+      "role": "user",
+      "gender": "female"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "id": "admin_cust"
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": false,
+      "havedelete": false,
+      "id": "user_cust"
+    },
+    {
+      "role": "admin",
+      "menu": "employee",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "id": "admin_emp"
+    },
+    {
+      "role": "user",
+      "menu": "employee",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false,
+      "id": "user_emp"
+    }
+  ]
+}
